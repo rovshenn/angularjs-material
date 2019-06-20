@@ -1,0 +1,29 @@
+<h1>Hello {{$ctrl.name}}!</h1>
+<p>
+  Start editing <b>home/home.html</b> :)
+</p>
+
+<div ng-cloak>
+  <md-content layout="column">
+    <p>
+       Display 1000 item in a virtual-list with viewport of only 7 rows (height=40px).
+       <br/><br/>
+       This demo shows scroll and rendering performance gains when using <code>md-virtual-repeat</code>;
+       achieved with the dynamic reuse of rows visible in the viewport area. Developers are required to
+       explicitly use <code>md-virtual-repeat-container</code> as a wrapping parent container.
+    </p>
+
+    <md-virtual-repeat-container id="vertical-container">
+      <div md-virtual-repeat="item in $ctrl.items"
+          class="repeated-item" flex>
+        {{item}}
+        <h1>test</h1>
+      </div>
+      <h1>test2</h1>
+    </md-virtual-repeat-container>
+    <h1>test3</h1>
+  </md-content>
+  <h1>test4</h1>
+</div>
+<h1>test5</h1>
+<h1>test6</h1>

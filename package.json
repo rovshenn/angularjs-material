@@ -1,0 +1,13 @@
+{
+  "name": "angularjs-zc6jjz",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@uirouter/angularjs": "1.0.15",
+    "angular": "1.6.9",
+    "angular-animate": "1.4 - 1.7.0 || ^1.7.2",
+    "angular-aria": "1.4 - 1.7.0 || ^1.7.2",
+    "angular-material": "^1.1.19",
+    "angular-messages": "1.4 - 1.7.0 || ^1.7.2"
+  }
+}
